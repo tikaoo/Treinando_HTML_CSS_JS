@@ -1,0 +1,25 @@
+<mat-card
+  class="app-card"
+  [style]="'background-color:' + Bg + ';color:' + letra + '; height:' + h + ''"
+>
+  <mat-card-header>
+    <mat-card-title>
+      <p [style]="'font-size:' + sizeL + ''">{{ subtitulo }}</p>
+    </mat-card-title>
+    <mat-card-title class="p2">{{ titulo }} </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <P class="p">{{ conteudo }}</P>
+    <p class="p">{{ conteudo2 }}</p>
+    <p class="p3">{{ conteudo3 }}</p>
+  </mat-card-content>
+
+  <button
+    mat-raised-button
+    color="warn"
+    [style]="'background-color:' + cBtn + ''"
+    (click)="mensagem()"
+  >
+    Comprar
+  </button>
+</mat-card>

@@ -1,0 +1,21 @@
+.conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 233, 233);
+}
+H1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 233, 233);
+  margin: 0px;
+  padding-top: 30px;
+}
+.toogle {
+  display: flex;
+  align-items: center;
+  background-color: rgb(245, 233, 233);
+  justify-content: center;
+}

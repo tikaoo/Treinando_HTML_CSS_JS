@@ -1,0 +1,33 @@
+.p {
+  border-bottom: 1px solid black;
+  font-size: 12px;
+}
+.p2 {
+  border-bottom: 1px solid black;
+  padding: 15px;
+}
+.p3 {
+  border-bottom: 1px solid black;
+}
+mat-card-title {
+  margin-top: 50px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  padding: 10px;
+}
+mat-card-header {
+  text-align: center;
+  display: inline;
+}
+mat-card {
+  line-height: 17px;
+}
+.mat-card-title {
+  font-size: 45px;
+}
+button {
+  width: 250px;
+  margin-top: 30px;
+}
